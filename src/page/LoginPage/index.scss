@@ -1,0 +1,22 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.container_wrapper {
+  display: flex;
+  align-items: center;
+  .form_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 20%;
+    }
+  }
+}
